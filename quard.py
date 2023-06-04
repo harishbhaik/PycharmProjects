@@ -1,0 +1,10 @@
+import cmath
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+c=int(input("enter c value"))
+rtn=(b**2)-(4*a*c)
+root1=(-b-cmath.sqrt(rtn))/(2*a)
+root2=(-b+cmath.sqrt(rtn))/(2*a)
+print("the roots are")
+print(root1)
+print(root2)
